@@ -6,13 +6,13 @@ public class Clock {
 	
 	public void setClock(int hr)
 	{
-		hr=hr;
+		this.hr=hr;
 	}
 	
 	public void setClock(int hr,int min)
 	{
-		hr=hr;
-		min=min;
+		this.hr=hr;
+		this.min=min;
 	}
 	
 	public void setClock(int hr,int min,int sec)
