@@ -1177,10 +1177,53 @@ Illegal modifier for the constructor in type Sample; only public, protected & pr
 Constructor Overloading :
 
 							
+************************************************
+Java Season - 1
+Day 12   - 21st September  - Thursday 
+************************************************
 
 
+--------------------------
+3.Inheritance
+--------------------------
 
 
+class B extends A 
+
+1. Single or Simple 
+2. MultiLevel
+3. Hiererichal 
+4. Multiple
+5. Hybrid
+
+Marks extends Student
+
+child		   Parent
+derived		   base
+							
+************************************************
+Java Season - 1
+Day 13   - 22nd September  - Friday 
+************************************************
+
+
+Java doesn't allow Multiple Inheritance for classes
+
+public class C extends A,B{
+
+}
+
+
+------------------------
+Method Overiding
+------------------------
+
+method signature 
+
+methodname + Paramaters / arguments
+
+
+methods having same signature  in two different classes having relationship 
 
 
 
