@@ -1225,11 +1225,50 @@ methodname + Paramaters / arguments
 
 methods having same signature  in two different classes having relationship 
 
+******************************************
+Java Season - 1
+Day 14   - 23rd  September  - Saturday 
+******************************************
+
+--------------------
+4. Abstraction
+--------------------
+
+Encapsulation = Data Hiding + Abstraction 
+
+								Abstraction
+								
+								
+								
+			Abstract class						Interface
+			
+			( 0 to 100 % )						100 % 
+			
+			
+
+abstract methods : 
+
+syntax :
+
+access-specifier abstract return-type methodName(arguments); ==> idea and no implementation 
 
 
+Note : 
+
+for abstract class we Cannot instantiate/create objects 
+
+			
+	Interface : ( 100 % abstraction)
+
+constant / fields and abstract methods 
 
 
+	
+Methods :
 
+1) what is the arguments that method is taking 
+2) what is the return-type 
+3) what does this method do ?						
 
 
 
