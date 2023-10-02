@@ -1,0 +1,172 @@
+******************************************
+Automation - Selenium Season - 1
+Day 15   - 25th  September  - Monday 
+******************************************
+
+Selenium 
+
+it's an API (jar) 
+
+Java is also an API ( jars)
+
+Selenium WebDriver : 
+
+https://www.selenium.dev/
+
+Selenium automates browsers. That's it!
+
+
+Selenium automates Web Applications or websites . 
+
+Click on "Download"
+
+under 
+Previous Releases . click on hyperlink "releases" 
+
+
+Now latest version : 4.12.0 
+
+Popular or long time stable version : 
+
+selenium-server-standalone-3.141.59.jar  
+
+or 
+
+selenium-server-4.7.2.jar
+
+
+how to add any jar to eclipse Java project ?
+
+right click on project -> go to build path -> configure build path --> click on Libraries tab --> 
+click on classpath --> click on Add exteernal jars button -> choose the jar from the location where you have downloaded 
+-> Click open -> apply -->apply and close 
+
+Now you see the jars under 
+Referenced Libraries in the project 
+
+-------------------------------
+
+org.openqa.selenium
+
+SearchContext(I)
+WebDriver(I)
+RemoteWebDriver(C)
+ChromiumDriver(C)
+ChromeDriver(C)
+
+
+IllegalStateException
+
+Exception in thread "main" java.lang.IllegalStateException:
+ The path to the driver executable must be set by the webdriver.chrome.driver system property;
+ for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. 
+ The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+ 
+
+chrome browser Version : Version 117.0
+
+
+
+using WebDriver Manager :
+
+jar 
+
+https://github.com/bonigarcia/webdrivermanager
+
+webdrivermanager-5.5.3 jar 
+
+
+????????????????????????????????
+Assignment :
+
+Launch Firefox browser  and Edge browser 
+using all different ways 
+
+?????????????????????????????????
+
+
+******************************************
+Automation - Selenium Season - 1
+Day 15   - 25th  September  - Monday 
+******************************************
+
+
+1. what are the arguments/parameters that method required 
+2. what is the return-type 
+3. over all what does the method do 
+
+
+============================
+Methods In WebDriver (13)
+============================
+
+org.openqa.selenium.WebDriver.ImeHandler
+org.openqa.selenium.WebDriver.Navigation
+org.openqa.selenium.WebDriver.Options
+org.openqa.selenium.WebDriver.TargetLocator
+org.openqa.selenium.WebDriver.Timeouts
+org.openqa.selenium.WebDriver.Window
+
+
+findElement(By)
+findElements(By)
+
+
+
+
+
+
+
+navigate()
+switchTo()
+
+-----------------------------
+get(String):void 
+
+here String is the url of the web app 
+
+this method will launch the app 
+
+--------------------------------
+close():void  this method will close the tab or window on which webdriver focus is 
+
+close methodd will close only one tab 
+
+
+------------------------------------
+
+quit():void this method will close all tabs or windows opened during that session 
+
+Interview :  diff b/w close and quit 
+
+Close : will close one tab or window on which webdriver focus is 
+ -> this will not kill chromedriver.exe task running in the backend
+
+quit : will close all tabs/windows opened during that session 
+-> this will  kill chromedriver.exe task running in the backend
+
+-------------------------------------
+getTitle():String this will return the title of page in String format
+
+------------------------------------
+getCurrentUrl():String this will return the url of page in String format
+
+----------------------------------------
+getPageSource():String this will return the html code of the page 
+--------------------------------------------
+getWindowHandle():String this will return the window id of the tab or window on which webdriver focus 
+
+0-9 A-F 
+
+CEF9710A8094440DCF57F1AE4F081C56
+
+--------------------------------------------------
+getWindowHandles():Set<String>  this will return the window ids of all tab's or windows 
+opened during the session in a collection form
+--------------------------------------------------
+
+manage(): Options 
+
+this will help in managing the window sizes , cookies , synchronization etc..
+
+
