@@ -1271,12 +1271,324 @@ Methods :
 3) what does this method do ?						
 
 
+							
+************************************************
+Java Season - 2
+Day   - 2nd October  - Monday 
+************************************************
+
+
+operators: 
+
+special symbols and it peforms particular operation
+
+based on no of operands , 
+
+									operators
+									
+									
+									
+				unary				binary				ternary
+
+
+operand can be a value or variable 
+
+int x=2;
+int y=3;
+
+z = x+y
+
+
+
+2 + 3 
+
+2,3 operands 
++ operator 
+
+	unary :
+
+	
+	
+			++     --
+			
+	
+		post 			pre 
+		
+	inc  dec        inc    dec 
+
+	a++  a--		++a   --a 
+	
+		
+		
+		
+		
+int x=20;
+
+x++;
+
+x--;
+
+++x;
+
+--x;
+
+		
+	
+Binary operators :
+
+
+			
+- Aritmetic operator / Mathematical 
+
+- Realtional Operators
+
+- Logical Operators
+
+- Bitwise Operators
+
+- assignment operators
+
+
+- Aritmetic operator / Mathematical :
+
+
++ - * /  % 								
+				
+
+- Realtional Operators 
+
+comparision between two things 
+
+
+>   <  >=  <=  !=  ==    ==> true or false
+
+
+Logical Operators:
+
+b/n two comparisions
+
+
+&& 			||				!
+
+AND         OR    	       NOT  
+
+
+
+Bitwise Operators:
+
+&   		|  			~   		^ 			>>   <<  	>>>
+
+AND 		OR 			tilt 		XOR		Right	left	unary 
+											shift	shift 	right shifter
+											
+											
+Assignment :
+
+=  += -= *=  /=  %=  >>=  <<=
+
+x=10;
+
+
+if x= 10 
+x+=10;    => x=x+10;										
+											
+
+
+x=12;	1100
+
+y=4;    0100
+
+--------------- 
+		1100
+		
+		
 
 
 
 
+Scanner Class :
+
+
+Scanner(InputStream)
+
+here InputStream object is nothing but System.in 	
+
+
+nextInt():int 
+
+nextLong() : long
+
+nextShort() : short
+
+nextByte() : short
+
+nextDouble() : double
+
+nextFloat(): float
+
+nextBoolean() : boolean
+
+next() : String
+
+
+							
+************************************************
+Java Season - 2
+Day   - 3rd October  - Tuesday 
+************************************************
+
+Ternary operators : (conditional operators or decision making operations)
+
+?:  
+
+syntax :
+
+expr1 ? expr2 : expr 3 
+
+expr1 condition or comparision
+
+expr2 True part 
+
+expr3 False part 
+		
+
+
+Flow Control or Control flow in Java : 
+
+
+if else 
+
+if(boolean value or an expression which results in boolean or condition)
+statement1; // will be excuted when condtion is true
+else 
+statement2; // will be excuted when condtion is false
+
+if(boolean value or an expression which results in boolean or condition)
+{
+
+//block of statements
+}
+else
+{
+//block of statements
+}
+
+
+https://www.facebook.com/
+
+
+	// <= 30000 20%
+	// >30000 <=60000 30%
+	// >60000 40%
+	
+
+Non-IT   IT 	
+		
+
+Switch:
+
+
+syntax 
+
+
+switch(variable/expression)
+{
+
+case value1 : statements
+			  break;
+case value2 : statements
+			  break;			  
+
+
+default : statements;
+
+
+}									
+	
+
+byte  short   int  char  String (from 1.7)
+
+
+Not allowed : long  float double boolean 
 										
 										
+************************************************
+Java Season - 2
+Day   - 4th October  - Wednesday 
+************************************************
+
+Loops or Iterative statements 
+
+
+
+i) for looping
+
+syntax :
+
+
+for(counter intialization; condition check ; increment or decrement)
+{
+
+//statements or code 
+
+
+}										
+
+
+ii) while loop 
+
+while(condition check)
+{
+
+//statements or code 
+
+}
 										
+										
+iii) do while 
+
+
+iv)for each or enchanced for loop
+
+										
+syntax :
+
+for(dataype someReferenceVaribale: arrayName or Collection refernce)
+{
+
+//use the someReferenceVaribale means the value 
+}										
+										
+---------------------------------------
+Arrays :
+
+
+int x=10;
+
+int y=20;
+
+
+def : indexed collection of homogenous datatype elements having fixed length
+
+
+syntax :
+
+method 1:
+datatype[] arrayName={value1,value2,value3..valuen}
+
+datatype[] arrayName ==> declaration
+
+arrayName={value1,value2,value3..valuen}  ==> initialization
+
+length : int (this is not method )
+
+
+method 2:
+
+using new 
+
+
+datatype[] arrayName=new datatype[length of array or no of elements in array];
+
 										
 										
