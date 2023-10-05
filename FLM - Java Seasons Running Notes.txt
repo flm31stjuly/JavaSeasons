@@ -1591,4 +1591,63 @@ using new
 datatype[] arrayName=new datatype[length of array or no of elements in array];
 
 										
+************************************************
+Java Season - 2
+Day   - 5th October  - Thursday 
+************************************************										
 										
+										
+
+datatype[] arrayName=new datatype[length of array or no of elements in array];
+
+dis advantages :
+
+1. arrays always allow similar datatype
+2. arrays doesn't have growable nature
+
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+	at oct5th.ArraysDemo5.main(ArraysDemo5.java:15)
+3. data strructured related predefined methods are not available
+
+
+Collections : 
+
+
+
+
+									Collection(I)
+									
+									
+				List(I)					Queue(I)				Set(I)
+
+			- ArrayList(C)										- HashSet()
+			- LinkedList(C)										- LinkedHashSet(C)
+			- Vector(C)											- SortedSet(I)
+			  Stack(C)								              - TreeSet(C)
+									
+									
+Collection(I)									
+									
+add(E):boolean
+addAll(Collection<? extends E>):boolean
+contains(Object):boolean
+isEmpty():boolean
+size():int 
+
+
+List(I):
+
+add(int, E):void
+get(int):E 
+indexOf(Object):int
+toArray():Object[]
+
+
+ArrayList(C)	:
+
+ArrayList()
+ArrayList(int)
+ArrayList(Collection<? extends E>)
+
+subList(int, int):List<E>
+
