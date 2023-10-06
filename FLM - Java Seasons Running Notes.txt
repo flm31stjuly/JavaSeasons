@@ -1651,3 +1651,41 @@ ArrayList(Collection<? extends E>)
 
 subList(int, int):List<E>
 
+										
+************************************************
+Java Season - 2
+Day   - 56h October  - Friday 
+************************************************										
+				
+
+Iterator :
+
+iterator():Iterator<E>	
+
+2 methods :
+
+hasNext():boolean 
+
+next():E 
+
+this will do 2 things 
+
+- retrive the element 
+- moves the cursor to next level
+
+--------------------------------
+Set(I):
+
+No get method here , because insertion order(index) is not preserved 
+
+
+
+Constructors:
+
+HashSet()
+HashSet(int)
+HashSet(int, float)
+HashSet(int, float, boolean)
+HashSet(Collection<? extends E>)
+
+

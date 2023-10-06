@@ -43,6 +43,10 @@ public class ArrayListDemo1 {
 			System.out.println(al.get(i));
 		}
 		
+		for(Object temp:al)
+		{
+			System.out.println(temp);
+		}
 		
 		 System.out.println(al.contains("FLM"));
 		

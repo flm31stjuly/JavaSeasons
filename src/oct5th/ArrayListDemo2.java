@@ -44,6 +44,11 @@ public class ArrayListDemo2 {
 		}
 		
 		
+		for(String temp:al)
+		{
+			System.out.println(temp);
+		}
+		
 		 System.out.println(al.contains("FLM"));
 		
 
