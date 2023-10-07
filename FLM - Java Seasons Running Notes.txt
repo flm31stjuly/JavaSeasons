@@ -1688,4 +1688,113 @@ HashSet(int, float)
 HashSet(int, float, boolean)
 HashSet(Collection<? extends E>)
 
+Here float is meant for Load factor 
 
+
+										
+************************************************
+Java Season - 2
+Day   - 7th October  - Saturday 
+************************************************										
+				
+				
+				List  						vs       Set 
+			(ArrayList								HashSet
+
+- insertion order is preserved 						- insertion order is not preserved 
+means index												 because of hashing technique 
+
+
+- duplicates are allowed                            - duplicates are not allowed 
+
+internal structure or implementation
+- linked list										- HashMap 
+
+to retrive the elements 
+
+- get(index)										we shoud use for-each or iterator 
+
+
+-------------------------------------------------------------------
+Exception Handling :
+
+
+Runtime Error is called Exception .
+
+
+
+try  catch finally throw throws 
+
+
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at oct7th.ExceptionDemo1.main(ExceptionDemo1.java:15)
+				
+				
+10
+
+
+try
+{
+
+// risky code 
+
+}				
+catch(argument)  //here argument is an exceptionclass with reference
+{
+
+//handling code or info code 
+}				
+finally
+{
+// some code to be excuted irrespective of exception 
+//compulsory 
+
+}
+
+
+try finally
+
+try catch 
+
+try catch finally 
+
+try catch catch ....
+
+try catch catch ....finally 
+
+
+								Exception Types
+								
+								
+			1)Checked Exceptions				2)UnChecked Exceptions
+
+
+			
+								
+MEthods in Throwable or Exception Class :
+
+
+getMessage():String 
+
+printStackTrace():void 								
+								
+									
+Note : while using multiple catch blocks you should follow bottom to top  hiererchy 
+
+Unreachable catch block for ArithmeticException. It is already handled by the catch block for RuntimeException
+
+--------------------------------------
+
+throw 								
+				
+
+used to create and throw user-defined or custom exception
+
+https://github.com/flm31stjuly				
+									
+									
+									
+									
+									
+									
+									
