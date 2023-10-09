@@ -1793,7 +1793,25 @@ used to create and throw user-defined or custom exception
 https://github.com/flm31stjuly				
 									
 									
-									
+************************************************
+Java Season - 2
+Day   - 8th October  - Saturday 
+*************************************************
+
+
+break statement:
+
+used in loops , switch 
+
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	Unreachable code
+
+	at oct9th.BreakDemo2.main(BreakDemo2.java:16)
+
+
+continue statement : 
+
+use in loop 								
 									
 									
 									
